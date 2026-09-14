@@ -1,6 +1,8 @@
+// Minha resolução:
+
 let a = 'vermelho';
 let b = 'azul';
 
 let c = a;
-let a = b;
-let b = c;
+a = b;
+b = c;
