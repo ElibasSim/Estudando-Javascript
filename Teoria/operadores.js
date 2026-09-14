@@ -71,4 +71,6 @@ console.log( 'Tem que retornar TRUE: ' + !false); // retorna TRUE
 
 
 // Lógicos não-booleanos: 
-// TA BAGUNÇADO, IGNORA
+
+
+// teste de commit 
