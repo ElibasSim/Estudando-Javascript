@@ -1,8 +1,9 @@
 // Operadores Aritméticos
 // Operadores Atribuição
 // Operadores Comparação
+// Operadores Ternários
 // Operadores Lógicos
-// Operadores Bitwise
+// Operadores Lógicos não-booleanos
 
 
 // Aritméticos:
@@ -72,5 +73,11 @@ console.log( 'Tem que retornar TRUE: ' + !false); // retorna TRUE
 
 // Lógicos não-booleanos: 
 
+// Falsy: undefined , null , 0 , false , '' , NaN (not a number)
+// Truthy: Qualquer um com exceção dos acima
 
-// teste de commit 
+let corPersonalizada = '';
+let corPadrão = 'azul';
+let corPerfil = corPersonalizada || corPadrão;
+
+console.log(corPerfil); 
